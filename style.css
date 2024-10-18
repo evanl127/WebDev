@@ -50,6 +50,9 @@ body {
   #auto {
     background: #158389
   }
+  #reset {
+    background: red
+  }
   div{
     background-color: lightgrey;
     width: 50%;

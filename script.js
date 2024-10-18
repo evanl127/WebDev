@@ -25,10 +25,11 @@ function auto() {
         clearInterval(intervalId);
     }
 }
-
-
-
-
+function reset(){
+    numStudents=0
+    studentDis = document.getElementById("count-el")
+    studentDis.innerHTML = numStudents
+}
 
 
 //Title = Student Counter
